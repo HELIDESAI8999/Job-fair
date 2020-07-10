@@ -9,13 +9,14 @@ body
    font-weight:300;
 
 }
+.error {color: #FF0000;}
 
 #signupbox
 {
     position:relative;
     margin:5% auto;
-    height:400px;
-    width: 600px;
+    height:600;
+    width:800;
     background: #fff;
     box-shadow: 0 2px 4px rgba(0,0,0,0.6);
 
@@ -28,8 +29,8 @@ body
    left: 0;
    box-sizing: border-box;
    padding: 40px;
-   width: 300px;
-   height: 400px;
+   width: 400;
+   height: 600;
 
 }
 
@@ -87,8 +88,8 @@ input[type="submit"]:focus
     right:0;
     box-sizing: border-box;
     padding: 40px;
-    width: 300px;
-    height: 400px;
+    width: 400;
+    height: 600;
     background-color: grey;
 
 }

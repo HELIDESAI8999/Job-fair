@@ -1,0 +1,88 @@
+@font-face 
+		{
+			font-family: 'Montserrat';
+			src: url(Montserrat-Black.ttf);
+		}
+
+*{
+    font-family: Montserrat;
+}
+
+.btn-color{
+    background-color: #4d5f6e;
+    border-radius: 8px;
+    color: white;
+}
+
+.btn{
+    color: white;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.bg{
+    background-color:#97b3c4;
+}
+
+.font{
+    color: white;
+    font-size: 2rem;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.bg-color{
+    background-color: #C4C4C4;
+}
+
+/* space between nav bar and body */
+.pad{
+    margin-top: 2rem;
+}
+
+
+
+
+/* anany's additions */
+
+nav#footer
+		{
+			background-color: #d9f1ff;
+			color: white;
+            font-size: 2rem;
+            padding: 10px;
+        }
+nav#modules
+		{
+			background-color: #97b3c4;
+			color: white;
+            font-size: 2rem;
+            padding: 10px;
+		}
+.login-btn
+	{
+        width: 20rem;
+        height: 20rem;
+	    background-size: 30rem;
+		
+		margin: 2rem;
+		border-radius: 10rem;
+		background-blend-mode: darken;
+		background-size: cover;
+		border: none;
+        opacity: 0.6; 
+    }
+
+.login-btn:hover
+		{
+			opacity: 1;
+			background-color: #4d5f6e;
+			transition-delay: 0s;
+			transition-duration: 0.5s;
+			border: 0px;
+		}
